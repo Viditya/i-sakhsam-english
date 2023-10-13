@@ -8,8 +8,8 @@ import speech_recognition as sr
 import webbrowser
 
 # Set your OpenAI API key
-# openai.api_key = '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'
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = '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'
+# openai.api_key = os.environ['OPENAI_API_KEY']
 
 def correct_text(user_text):
 # Without assitant role to maintain continuity
